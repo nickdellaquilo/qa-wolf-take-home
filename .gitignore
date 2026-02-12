@@ -6,3 +6,4 @@ node_modules/
 failure-screenshot-*.png
 *.log
 .env
+.DS_Store
