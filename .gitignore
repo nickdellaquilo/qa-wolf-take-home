@@ -1,0 +1,8 @@
+node_modules/
+/test-reports/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+failure-screenshot-*.png
+*.log
+.env

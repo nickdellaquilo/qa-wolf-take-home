@@ -1,0 +1,36 @@
+{
+  "name": "hn-sorting-test-suite",
+  "version": "2.0.0",
+  "description": "Comprehensive Playwright test suite for validating Hacker News article sorting",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "test:verbose": "node index.js --verbose",
+    "test:debug": "node index.js --debug --headed",
+    "test:all": "node index.js --all-tests --report",
+    "test:edge-cases": "node index.js --edge-cases --report",
+    "test:negative": "node index.js --negative --report",
+    "test:firefox": "node index.js --firefox --report",
+    "test:webkit": "node index.js --webkit --report",
+    "test:all-browsers": "node index.js --all-browsers --report",
+    "test:ci": "node index.js --report --log-level=info"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "qa",
+    "automation",
+    "hacker-news",
+    "sorting",
+    "validation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
