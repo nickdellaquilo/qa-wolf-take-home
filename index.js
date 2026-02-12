@@ -137,7 +137,7 @@ class PerformanceMetrics {
 
   report() {
     console.log("\n" + "=".repeat(80));
-    console.log("📊 PERFORMANCE METRICS");
+    console.log("PERFORMANCE METRICS");
     console.log("=".repeat(80));
     console.log(`Total Execution Time: ${this.metrics.totalExecutionTime}ms`);
     console.log(`Page Load Time: ${this.metrics.pageLoadTime}ms`);
@@ -286,7 +286,7 @@ class TestReport {
 </head>
 <body>
   <div class="header">
-    <h1>🧪 Hacker News Sorting Test Report</h1>
+    <h1> Hacker News Sorting Test Report</h1>
     <p>Test Run ID: ${this.testRun.id}</p>
     <p>Timestamp: ${this.testRun.timestamp}</p>
     <p>Browser: ${this.testRun.browser}</p>
