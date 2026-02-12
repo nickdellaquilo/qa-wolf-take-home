@@ -237,16 +237,6 @@ Metrics payload includes:
 ### Secrets (Optional)
 - `METRICS_ENDPOINT`: For monitoring integration
 
-## Performance Benchmarks
-
-Typical execution times:
-
-| Browser  | Standard Test | All Tests | Headed Mode |
-|----------|--------------|-----------|-------------|
-| Chromium | ~15s         | ~45s      | ~35s        |
-| Firefox  | ~18s         | ~50s      | ~40s        |
-| WebKit   | ~16s         | ~47s      | ~38s        |
-
 ## NPM Scripts
 
 ```bash
@@ -277,38 +267,6 @@ npm run test:all-browsers
 
 # CI mode
 npm run test:ci
-```
-
-## Architecture
-
-### Component Structure
-
-```
-index.js
-├── Configuration
-├── Logging System
-├── Performance Metrics
-├── Monitoring Integration
-├── Test Report Generation
-├── Data Validation
-├── Utility Functions
-│   ├── retry()
-│   ├── extractArticles()
-│   ├── displayDebugInfo()
-├── Article Collection
-│   └── collectArticles()
-├── Timestamp Parsing
-│   └── parseTimestamps()
-├── Sorting Validation
-│   └── validateSorting()
-├── Test Scenarios
-│   ├── testStandardSorting()
-│   ├── testPartialSorting()
-│   ├── testTimestampFormats()
-│   ├── testNetworkFailureHandling()
-│   └── testInvalidURL()
-└── Test Runner
-    └── runTests()
 ```
 
 ## Validation Rules
