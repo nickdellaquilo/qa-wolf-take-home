@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1771560328720</title>
+  <title>Test Report - test-1771646243450</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,8 +22,8 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1771560328720</p>
-    <p>Timestamp: 2026-02-20T04:05:28.720Z</p>
+    <p>Test Run ID: test-1771646243450</p>
+    <p>Timestamp: 2026-02-21T03:57:23.450Z</p>
     <p>Browser: firefox</p>
   </div>
   
@@ -51,30 +51,29 @@
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Edge Case - First 30 Articles Only</strong>
+          <strong>Negative Test - Network Failure Handling</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">1018ms</span>
+            <span style="margin-left: 10px; color: #666">4319ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesCollected": 30,
-  "sortingViolations": 0
+  "articlesBeforeFailure": 30,
+  "failedGracefully": true
 }</div>
       </div>
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Edge Case - Timestamp Format Consistency</strong>
+          <strong>Negative Test - Invalid URL</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">356ms</span>
+            <span style="margin-left: 10px; color: #666">30430ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesChecked": 30,
-  "invalidFormats": 0,
-  "missingTimestamps": 0
+  "note": "Failed as expected",
+  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
 }</div>
       </div>
     
