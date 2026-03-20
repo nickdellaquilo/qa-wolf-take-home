@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1773893528984</title>
+  <title>Test Report - test-1773979488456</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,9 +22,9 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1773893528984</p>
-    <p>Timestamp: 2026-03-19T04:12:08.984Z</p>
-    <p>Browser: chromium</p>
+    <p>Test Run ID: test-1773979488456</p>
+    <p>Timestamp: 2026-03-20T04:04:48.456Z</p>
+    <p>Browser: webkit</p>
   </div>
   
   <div class="summary">
@@ -51,29 +51,30 @@
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Negative Test - Network Failure Handling</strong>
+          <strong>Edge Case - First 30 Articles Only</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">3450ms</span>
+            <span style="margin-left: 10px; color: #666">682ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesBeforeFailure": 30,
-  "failedGracefully": true
+  "articlesCollected": 30,
+  "sortingViolations": 0
 }</div>
       </div>
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Negative Test - Invalid URL</strong>
+          <strong>Edge Case - Timestamp Format Consistency</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">30201ms</span>
+            <span style="margin-left: 10px; color: #666">590ms</span>
           </div>
         </div>
         <div class="details">{
-  "note": "Failed as expected",
-  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+  "articlesChecked": 30,
+  "invalidFormats": 0,
+  "missingTimestamps": 0
 }</div>
       </div>
     
