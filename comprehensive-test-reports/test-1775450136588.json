@@ -1,19 +1,19 @@
 {
-  "id": "test-1775363320891",
-  "timestamp": "2026-04-05T04:28:40.891Z",
+  "id": "test-1775450136588",
+  "timestamp": "2026-04-06T04:35:36.588Z",
   "browser": "all",
   "testType": "all",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "passed",
-      "duration": 1223,
+      "duration": 1109,
       "details": {
         "articlesCollected": 100,
         "validationErrors": 0,
         "sortingViolations": 0
       },
-      "timestamp": "2026-04-05T04:28:44.366Z"
+      "timestamp": "2026-04-06T04:35:37.895Z"
     },
     {
       "name": "Edge Case - First 30 Articles Only",
@@ -23,99 +23,99 @@
         "articlesCollected": 30,
         "sortingViolations": 0
       },
-      "timestamp": "2026-04-05T04:28:44.830Z"
+      "timestamp": "2026-04-06T04:35:38.359Z"
     },
     {
       "name": "Edge Case - Timestamp Format Consistency",
       "status": "passed",
-      "duration": 368,
+      "duration": 356,
       "details": {
         "articlesChecked": 30,
         "invalidFormats": 0,
         "missingTimestamps": 0
       },
-      "timestamp": "2026-04-05T04:28:45.198Z"
+      "timestamp": "2026-04-06T04:35:38.715Z"
     },
     {
       "name": "Negative Test - Network Failure Handling",
       "status": "passed",
-      "duration": 3460,
+      "duration": 3419,
       "details": {
         "articlesBeforeFailure": 30,
         "failedGracefully": true
       },
-      "timestamp": "2026-04-05T04:28:48.659Z"
+      "timestamp": "2026-04-06T04:35:42.134Z"
     },
     {
       "name": "Negative Test - Invalid URL",
       "status": "passed",
-      "duration": 30341,
+      "duration": 30264,
       "details": {
         "note": "Failed as expected",
         "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-04-05T04:29:19.000Z"
+      "timestamp": "2026-04-06T04:36:12.398Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "passed",
-      "duration": 2366,
+      "duration": 2273,
       "details": {
         "articlesCollected": 100,
         "validationErrors": 0,
         "sortingViolations": 0
       },
-      "timestamp": "2026-04-05T04:29:21.882Z"
+      "timestamp": "2026-04-06T04:36:15.100Z"
     },
     {
       "name": "Edge Case - First 30 Articles Only",
       "status": "passed",
-      "duration": 788,
+      "duration": 726,
       "details": {
         "articlesCollected": 30,
         "sortingViolations": 0
       },
-      "timestamp": "2026-04-05T04:29:22.670Z"
+      "timestamp": "2026-04-06T04:36:15.826Z"
     },
     {
       "name": "Edge Case - Timestamp Format Consistency",
       "status": "passed",
-      "duration": 638,
+      "duration": 615,
       "details": {
         "articlesChecked": 30,
         "invalidFormats": 0,
         "missingTimestamps": 0
       },
-      "timestamp": "2026-04-05T04:29:23.308Z"
+      "timestamp": "2026-04-06T04:36:16.441Z"
     },
     {
       "name": "Negative Test - Network Failure Handling",
       "status": "passed",
-      "duration": 3887,
+      "duration": 3852,
       "details": {
         "articlesBeforeFailure": 30,
         "failedGracefully": true
       },
-      "timestamp": "2026-04-05T04:29:27.195Z"
+      "timestamp": "2026-04-06T04:36:20.293Z"
     },
     {
       "name": "Negative Test - Invalid URL",
       "status": "passed",
-      "duration": 30564,
+      "duration": 30500,
       "details": {
         "note": "Failed as expected",
         "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-04-05T04:29:57.760Z"
+      "timestamp": "2026-04-06T04:36:50.793Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 38241,
+      "duration": 35730,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-04-05T04:30:37.229Z"
+      "timestamp": "2026-04-06T04:37:27.542Z"
     }
   ],
   "summary": {
