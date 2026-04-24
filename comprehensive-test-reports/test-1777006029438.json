@@ -1,35 +1,35 @@
 {
-  "id": "test-1776919401439",
-  "timestamp": "2026-04-23T04:43:21.439Z",
+  "id": "test-1777006029438",
+  "timestamp": "2026-04-24T04:47:09.438Z",
   "browser": "all",
   "testType": "all",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 33481,
+      "duration": 33410,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-04-23T04:43:55.607Z"
+      "timestamp": "2026-04-24T04:47:43.951Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 34477,
+      "duration": 30997,
       "details": {
-        "error": "More link disappeared"
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-04-23T04:44:30.509Z"
+      "timestamp": "2026-04-24T04:48:15.398Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 35150,
+      "duration": 36092,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-04-23T04:45:06.686Z"
+      "timestamp": "2026-04-24T04:48:52.570Z"
     }
   ],
   "summary": {
