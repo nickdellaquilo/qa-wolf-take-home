@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1777613677070</title>
+  <title>Test Report - test-1777697505578</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,8 +22,8 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1777613677070</p>
-    <p>Timestamp: 2026-05-01T05:34:37.070Z</p>
+    <p>Test Run ID: test-1777697505578</p>
+    <p>Timestamp: 2026-05-02T04:51:45.578Z</p>
     <p>Browser: all</p>
   </div>
   
@@ -34,15 +34,15 @@
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">9</div>
+      <div class="value" style="color: #28a745">10</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
-      <div class="value" style="color: #dc3545">2</div>
+      <div class="value" style="color: #dc3545">1</div>
     </div>
     <div class="metric">
       <h3>Success Rate</h3>
-      <div class="value">81.8%</div>
+      <div class="value">90.9%</div>
     </div>
   </div>
   
@@ -54,7 +54,7 @@
           <strong>Standard Sorting - First 100 Articles</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">1006ms</span>
+            <span style="margin-left: 10px; color: #666">1134ms</span>
           </div>
         </div>
         <div class="details">{
@@ -69,7 +69,7 @@
           <strong>Edge Case - First 30 Articles Only</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">295ms</span>
+            <span style="margin-left: 10px; color: #666">364ms</span>
           </div>
         </div>
         <div class="details">{
@@ -83,7 +83,7 @@
           <strong>Edge Case - Timestamp Format Consistency</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">365ms</span>
+            <span style="margin-left: 10px; color: #666">354ms</span>
           </div>
         </div>
         <div class="details">{
@@ -98,7 +98,7 @@
           <strong>Negative Test - Network Failure Handling</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">3370ms</span>
+            <span style="margin-left: 10px; color: #666">3443ms</span>
           </div>
         </div>
         <div class="details">{
@@ -112,7 +112,7 @@
           <strong>Negative Test - Invalid URL</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">30311ms</span>
+            <span style="margin-left: 10px; color: #666">30238ms</span>
           </div>
         </div>
         <div class="details">{
@@ -126,7 +126,7 @@
           <strong>Standard Sorting - First 100 Articles</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">2100ms</span>
+            <span style="margin-left: 10px; color: #666">2173ms</span>
           </div>
         </div>
         <div class="details">{
@@ -136,16 +136,17 @@
 }</div>
       </div>
     
-      <div class="test failed">
+      <div class="test passed">
         <div class="test-header">
           <strong>Edge Case - First 30 Articles Only</strong>
           <div>
-            <span class="status" style="background: #dc3545">FAILED</span>
-            <span style="margin-left: 10px; color: #666">30403ms</span>
+            <span class="status" style="background: #28a745">PASSED</span>
+            <span style="margin-left: 10px; color: #666">623ms</span>
           </div>
         </div>
         <div class="details">{
-  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+  "articlesCollected": 30,
+  "sortingViolations": 0
 }</div>
       </div>
     
@@ -154,7 +155,7 @@
           <strong>Edge Case - Timestamp Format Consistency</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">546ms</span>
+            <span style="margin-left: 10px; color: #666">624ms</span>
           </div>
         </div>
         <div class="details">{
@@ -169,7 +170,7 @@
           <strong>Negative Test - Network Failure Handling</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">3723ms</span>
+            <span style="margin-left: 10px; color: #666">3820ms</span>
           </div>
         </div>
         <div class="details">{
@@ -183,7 +184,7 @@
           <strong>Negative Test - Invalid URL</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">30412ms</span>
+            <span style="margin-left: 10px; color: #666">30437ms</span>
           </div>
         </div>
         <div class="details">{
@@ -197,7 +198,7 @@
           <strong>Standard Sorting - First 100 Articles</strong>
           <div>
             <span class="status" style="background: #dc3545">FAILED</span>
-            <span style="margin-left: 10px; color: #666">34535ms</span>
+            <span style="margin-left: 10px; color: #666">36331ms</span>
           </div>
         </div>
         <div class="details">{
