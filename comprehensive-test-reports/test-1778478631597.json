@@ -1,0 +1,41 @@
+{
+  "id": "test-1778478631597",
+  "timestamp": "2026-05-11T05:50:31.597Z",
+  "browser": "all",
+  "testType": "all",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 33400,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-05-11T05:51:06.075Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 34196,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-05-11T05:51:40.660Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 34087,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-05-11T05:52:16.015Z"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "passed": 0,
+    "failed": 3,
+    "skipped": 0
+  }
+}
