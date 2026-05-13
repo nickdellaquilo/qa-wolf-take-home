@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1778563855889</title>
+  <title>Test Report - test-1778650834640</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,8 +22,8 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1778563855889</p>
-    <p>Timestamp: 2026-05-12T05:30:55.889Z</p>
+    <p>Test Run ID: test-1778650834640</p>
+    <p>Timestamp: 2026-05-13T05:40:34.640Z</p>
     <p>Browser: firefox</p>
   </div>
   
@@ -51,29 +51,30 @@
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Negative Test - Network Failure Handling</strong>
+          <strong>Edge Case - First 30 Articles Only</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">4462ms</span>
+            <span style="margin-left: 10px; color: #666">2398ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesBeforeFailure": 30,
-  "failedGracefully": true
+  "articlesCollected": 30,
+  "sortingViolations": 0
 }</div>
       </div>
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Negative Test - Invalid URL</strong>
+          <strong>Edge Case - Timestamp Format Consistency</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">30411ms</span>
+            <span style="margin-left: 10px; color: #666">2073ms</span>
           </div>
         </div>
         <div class="details">{
-  "note": "Failed as expected",
-  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+  "articlesChecked": 30,
+  "invalidFormats": 0,
+  "missingTimestamps": 0
 }</div>
       </div>
     
