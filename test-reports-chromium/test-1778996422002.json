@@ -1,0 +1,25 @@
+{
+  "id": "test-1778996422002",
+  "timestamp": "2026-05-17T05:40:22.002Z",
+  "browser": "chromium",
+  "testType": "standard",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "passed",
+      "duration": 1048,
+      "details": {
+        "articlesCollected": 100,
+        "validationErrors": 0,
+        "sortingViolations": 0
+      },
+      "timestamp": "2026-05-17T05:40:24.916Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}
