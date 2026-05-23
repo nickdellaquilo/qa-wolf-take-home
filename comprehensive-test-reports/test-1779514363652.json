@@ -1,127 +1,170 @@
 {
-  "id": "test-1779429431696",
-  "timestamp": "2026-05-22T05:57:11.696Z",
+  "id": "test-1779514363652",
+  "timestamp": "2026-05-23T05:32:43.652Z",
   "browser": "all",
   "testType": "all",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "passed",
-      "duration": 1134,
+      "duration": 616,
       "details": {
         "articlesCollected": 100,
         "validationErrors": 0,
         "sortingViolations": 0
       },
-      "timestamp": "2026-05-22T05:57:14.129Z"
+      "timestamp": "2026-05-23T05:32:44.466Z"
     },
     {
       "name": "Edge Case - First 30 Articles Only",
       "status": "passed",
-      "duration": 408,
+      "duration": 142,
       "details": {
         "articlesCollected": 30,
         "sortingViolations": 0
       },
-      "timestamp": "2026-05-22T05:57:14.538Z"
+      "timestamp": "2026-05-23T05:32:44.608Z"
     },
     {
       "name": "Edge Case - Timestamp Format Consistency",
       "status": "passed",
-      "duration": 368,
+      "duration": 155,
       "details": {
         "articlesChecked": 30,
         "invalidFormats": 0,
         "missingTimestamps": 0
       },
-      "timestamp": "2026-05-22T05:57:14.906Z"
+      "timestamp": "2026-05-23T05:32:44.763Z"
     },
     {
       "name": "Negative Test - Network Failure Handling",
       "status": "passed",
-      "duration": 3420,
+      "duration": 3226,
       "details": {
         "articlesBeforeFailure": 30,
         "failedGracefully": true
       },
-      "timestamp": "2026-05-22T05:57:18.326Z"
+      "timestamp": "2026-05-23T05:32:47.989Z"
     },
     {
       "name": "Negative Test - Invalid URL",
       "status": "passed",
-      "duration": 30257,
+      "duration": 30079,
       "details": {
         "note": "Failed as expected",
         "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-05-22T05:57:48.583Z"
+      "timestamp": "2026-05-23T05:33:18.068Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "passed",
-      "duration": 2276,
+      "duration": 1892,
       "details": {
         "articlesCollected": 100,
         "validationErrors": 0,
         "sortingViolations": 0
       },
-      "timestamp": "2026-05-22T05:57:51.333Z"
+      "timestamp": "2026-05-23T05:33:20.545Z"
     },
     {
       "name": "Edge Case - First 30 Articles Only",
       "status": "passed",
-      "duration": 706,
+      "duration": 373,
       "details": {
         "articlesCollected": 30,
         "sortingViolations": 0
       },
-      "timestamp": "2026-05-22T05:57:52.039Z"
+      "timestamp": "2026-05-23T05:33:20.918Z"
     },
     {
       "name": "Edge Case - Timestamp Format Consistency",
       "status": "passed",
-      "duration": 620,
+      "duration": 367,
       "details": {
         "articlesChecked": 30,
         "invalidFormats": 0,
         "missingTimestamps": 0
       },
-      "timestamp": "2026-05-22T05:57:52.659Z"
+      "timestamp": "2026-05-23T05:33:21.285Z"
     },
     {
       "name": "Negative Test - Network Failure Handling",
       "status": "passed",
-      "duration": 3864,
+      "duration": 3496,
       "details": {
         "articlesBeforeFailure": 30,
         "failedGracefully": true
       },
-      "timestamp": "2026-05-22T05:57:56.523Z"
+      "timestamp": "2026-05-23T05:33:24.781Z"
     },
     {
       "name": "Negative Test - Invalid URL",
       "status": "passed",
-      "duration": 30464,
+      "duration": 30241,
       "details": {
         "note": "Failed as expected",
         "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-05-22T05:58:26.987Z"
+      "timestamp": "2026-05-23T05:33:55.022Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
-      "status": "failed",
-      "duration": 37087,
+      "status": "passed",
+      "duration": 4831,
       "details": {
-        "error": "More link disappeared"
+        "articlesCollected": 100,
+        "validationErrors": 0,
+        "sortingViolations": 0
       },
-      "timestamp": "2026-05-22T05:59:05.105Z"
+      "timestamp": "2026-05-23T05:34:00.917Z"
+    },
+    {
+      "name": "Edge Case - First 30 Articles Only",
+      "status": "passed",
+      "duration": 394,
+      "details": {
+        "articlesCollected": 30,
+        "sortingViolations": 0
+      },
+      "timestamp": "2026-05-23T05:34:01.311Z"
+    },
+    {
+      "name": "Edge Case - Timestamp Format Consistency",
+      "status": "passed",
+      "duration": 392,
+      "details": {
+        "articlesChecked": 30,
+        "invalidFormats": 0,
+        "missingTimestamps": 0
+      },
+      "timestamp": "2026-05-23T05:34:01.703Z"
+    },
+    {
+      "name": "Negative Test - Network Failure Handling",
+      "status": "passed",
+      "duration": 3593,
+      "details": {
+        "articlesBeforeFailure": 30,
+        "failedGracefully": true
+      },
+      "timestamp": "2026-05-23T05:34:05.296Z"
+    },
+    {
+      "name": "Negative Test - Invalid URL",
+      "status": "passed",
+      "duration": 30278,
+      "details": {
+        "note": "Failed as expected",
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+      },
+      "timestamp": "2026-05-23T05:34:35.574Z"
     }
   ],
   "summary": {
-    "total": 11,
-    "passed": 10,
-    "failed": 1,
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
     "skipped": 0
   }
 }
