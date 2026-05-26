@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1779689784714</title>
+  <title>Test Report - test-1779775095585</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,45 +22,69 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1779689784714</p>
-    <p>Timestamp: 2026-05-25T06:16:24.714Z</p>
-    <p>Browser: firefox</p>
+    <p>Test Run ID: test-1779775095585</p>
+    <p>Timestamp: 2026-05-26T05:58:15.585Z</p>
+    <p>Browser: all</p>
   </div>
   
   <div class="summary">
     <div class="metric">
       <h3>Total Tests</h3>
-      <div class="value">1</div>
+      <div class="value">3</div>
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">1</div>
+      <div class="value" style="color: #28a745">0</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
-      <div class="value" style="color: #dc3545">0</div>
+      <div class="value" style="color: #dc3545">3</div>
     </div>
     <div class="metric">
       <h3>Success Rate</h3>
-      <div class="value">100.0%</div>
+      <div class="value">0.0%</div>
     </div>
   </div>
   
   <div class="tests">
     <h2>Test Results</h2>
     
-      <div class="test passed">
+      <div class="test failed">
         <div class="test-header">
           <strong>Standard Sorting - First 100 Articles</strong>
           <div>
-            <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">2206ms</span>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">33435ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesCollected": 100,
-  "validationErrors": 0,
-  "sortingViolations": 0
+  "error": "More link disappeared"
+}</div>
+      </div>
+    
+      <div class="test failed">
+        <div class="test-header">
+          <strong>Standard Sorting - First 100 Articles</strong>
+          <div>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">34335ms</span>
+          </div>
+        </div>
+        <div class="details">{
+  "error": "More link disappeared"
+}</div>
+      </div>
+    
+      <div class="test failed">
+        <div class="test-header">
+          <strong>Standard Sorting - First 100 Articles</strong>
+          <div>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">37499ms</span>
+          </div>
+        </div>
+        <div class="details">{
+  "error": "More link disappeared"
 }</div>
       </div>
     
