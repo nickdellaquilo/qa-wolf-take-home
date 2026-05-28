@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1779862086622</title>
+  <title>Test Report - test-1779948081188</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,59 +22,69 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1779862086622</p>
-    <p>Timestamp: 2026-05-27T06:08:06.622Z</p>
-    <p>Browser: firefox</p>
+    <p>Test Run ID: test-1779948081188</p>
+    <p>Timestamp: 2026-05-28T06:01:21.188Z</p>
+    <p>Browser: all</p>
   </div>
   
   <div class="summary">
     <div class="metric">
       <h3>Total Tests</h3>
-      <div class="value">2</div>
+      <div class="value">3</div>
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">2</div>
+      <div class="value" style="color: #28a745">0</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
-      <div class="value" style="color: #dc3545">0</div>
+      <div class="value" style="color: #dc3545">3</div>
     </div>
     <div class="metric">
       <h3>Success Rate</h3>
-      <div class="value">100.0%</div>
+      <div class="value">0.0%</div>
     </div>
   </div>
   
   <div class="tests">
     <h2>Test Results</h2>
     
-      <div class="test passed">
+      <div class="test failed">
         <div class="test-header">
-          <strong>Edge Case - First 30 Articles Only</strong>
+          <strong>Standard Sorting - First 100 Articles</strong>
           <div>
-            <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">1165ms</span>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">33547ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesCollected": 30,
-  "sortingViolations": 0
+  "error": "More link disappeared"
 }</div>
       </div>
     
-      <div class="test passed">
+      <div class="test failed">
         <div class="test-header">
-          <strong>Edge Case - Timestamp Format Consistency</strong>
+          <strong>Standard Sorting - First 100 Articles</strong>
           <div>
-            <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">409ms</span>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">35863ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesChecked": 30,
-  "invalidFormats": 0,
-  "missingTimestamps": 0
+  "error": "More link disappeared"
+}</div>
+      </div>
+    
+      <div class="test failed">
+        <div class="test-header">
+          <strong>Standard Sorting - First 100 Articles</strong>
+          <div>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">36071ms</span>
+          </div>
+        </div>
+        <div class="details">{
+  "error": "More link disappeared"
 }</div>
       </div>
     
