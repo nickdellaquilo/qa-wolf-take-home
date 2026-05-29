@@ -1,35 +1,35 @@
 {
-  "id": "test-1779948081188",
-  "timestamp": "2026-05-28T06:01:21.188Z",
+  "id": "test-1780034624484",
+  "timestamp": "2026-05-29T06:03:44.484Z",
   "browser": "all",
   "testType": "all",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 33547,
+      "duration": 33281,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-05-28T06:01:54.932Z"
+      "timestamp": "2026-05-29T06:04:19.275Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 35863,
+      "duration": 34272,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-05-28T06:02:31.203Z"
+      "timestamp": "2026-05-29T06:04:54.247Z"
     },
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 36071,
+      "duration": 40744,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-05-28T06:03:08.344Z"
+      "timestamp": "2026-05-29T06:05:36.132Z"
     }
   ],
   "summary": {
