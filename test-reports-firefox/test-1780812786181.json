@@ -1,0 +1,23 @@
+{
+  "id": "test-1780812786181",
+  "timestamp": "2026-06-07T06:13:06.181Z",
+  "browser": "firefox",
+  "testType": "standard",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 35071,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-06-07T06:13:41.779Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}
