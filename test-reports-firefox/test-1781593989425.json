@@ -1,17 +1,17 @@
 {
-  "id": "test-1781507237881",
-  "timestamp": "2026-06-15T07:07:17.881Z",
-  "browser": "webkit",
+  "id": "test-1781593989425",
+  "timestamp": "2026-06-16T07:13:09.425Z",
+  "browser": "firefox",
   "testType": "standard",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 44400,
+      "duration": 34404,
       "details": {
         "error": "More link disappeared"
       },
-      "timestamp": "2026-06-15T07:08:03.169Z"
+      "timestamp": "2026-06-16T07:13:44.817Z"
     }
   ],
   "summary": {
