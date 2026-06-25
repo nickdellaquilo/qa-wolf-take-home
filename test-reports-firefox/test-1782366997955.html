@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1782280681847</title>
+  <title>Test Report - test-1782366997955</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,9 +22,9 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1782280681847</p>
-    <p>Timestamp: 2026-06-24T05:58:01.847Z</p>
-    <p>Browser: webkit</p>
+    <p>Test Run ID: test-1782366997955</p>
+    <p>Timestamp: 2026-06-25T05:56:37.955Z</p>
+    <p>Browser: firefox</p>
   </div>
   
   <div class="summary">
@@ -51,30 +51,29 @@
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Edge Case - First 30 Articles Only</strong>
+          <strong>Negative Test - Network Failure Handling</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">750ms</span>
+            <span style="margin-left: 10px; color: #666">4734ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesCollected": 30,
-  "sortingViolations": 0
+  "articlesBeforeFailure": 30,
+  "failedGracefully": true
 }</div>
       </div>
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Edge Case - Timestamp Format Consistency</strong>
+          <strong>Negative Test - Invalid URL</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">709ms</span>
+            <span style="margin-left: 10px; color: #666">30627ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesChecked": 30,
-  "invalidFormats": 0,
-  "missingTimestamps": 0
+  "note": "Failed as expected",
+  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
 }</div>
       </div>
     
