@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1782714427620</title>
+  <title>Test Report - test-1782799288881</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,43 +22,58 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1782714427620</p>
-    <p>Timestamp: 2026-06-29T06:27:07.620Z</p>
-    <p>Browser: firefox</p>
+    <p>Test Run ID: test-1782799288881</p>
+    <p>Timestamp: 2026-06-30T06:01:28.881Z</p>
+    <p>Browser: webkit</p>
   </div>
   
   <div class="summary">
     <div class="metric">
       <h3>Total Tests</h3>
-      <div class="value">1</div>
+      <div class="value">2</div>
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">0</div>
+      <div class="value" style="color: #28a745">2</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
-      <div class="value" style="color: #dc3545">1</div>
+      <div class="value" style="color: #dc3545">0</div>
     </div>
     <div class="metric">
       <h3>Success Rate</h3>
-      <div class="value">0.0%</div>
+      <div class="value">100.0%</div>
     </div>
   </div>
   
   <div class="tests">
     <h2>Test Results</h2>
     
-      <div class="test failed">
+      <div class="test passed">
         <div class="test-header">
-          <strong>Standard Sorting - First 100 Articles</strong>
+          <strong>Negative Test - Network Failure Handling</strong>
           <div>
-            <span class="status" style="background: #dc3545">FAILED</span>
-            <span style="margin-left: 10px; color: #666">34616ms</span>
+            <span class="status" style="background: #28a745">PASSED</span>
+            <span style="margin-left: 10px; color: #666">3798ms</span>
           </div>
         </div>
         <div class="details">{
-  "error": "More link disappeared"
+  "articlesBeforeFailure": 30,
+  "failedGracefully": true
+}</div>
+      </div>
+    
+      <div class="test passed">
+        <div class="test-header">
+          <strong>Negative Test - Invalid URL</strong>
+          <div>
+            <span class="status" style="background: #28a745">PASSED</span>
+            <span style="margin-left: 10px; color: #666">30359ms</span>
+          </div>
+        </div>
+        <div class="details">{
+  "note": "Failed as expected",
+  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
 }</div>
       </div>
     
