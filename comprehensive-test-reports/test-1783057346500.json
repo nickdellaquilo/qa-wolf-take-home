@@ -1,0 +1,84 @@
+{
+  "id": "test-1783057346500",
+  "timestamp": "2026-07-03T05:42:26.500Z",
+  "browser": "all",
+  "testType": "all",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "passed",
+      "duration": 1208,
+      "details": {
+        "articlesCollected": 100,
+        "validationErrors": 0,
+        "sortingViolations": 0
+      },
+      "timestamp": "2026-07-03T05:42:28.553Z"
+    },
+    {
+      "name": "Edge Case - First 30 Articles Only",
+      "status": "passed",
+      "duration": 366,
+      "details": {
+        "articlesCollected": 30,
+        "sortingViolations": 0
+      },
+      "timestamp": "2026-07-03T05:42:28.920Z"
+    },
+    {
+      "name": "Edge Case - Timestamp Format Consistency",
+      "status": "passed",
+      "duration": 365,
+      "details": {
+        "articlesChecked": 30,
+        "invalidFormats": 0,
+        "missingTimestamps": 0
+      },
+      "timestamp": "2026-07-03T05:42:29.285Z"
+    },
+    {
+      "name": "Negative Test - Network Failure Handling",
+      "status": "passed",
+      "duration": 3438,
+      "details": {
+        "articlesBeforeFailure": 30,
+        "failedGracefully": true
+      },
+      "timestamp": "2026-07-03T05:42:32.723Z"
+    },
+    {
+      "name": "Negative Test - Invalid URL",
+      "status": "passed",
+      "duration": 30346,
+      "details": {
+        "note": "Failed as expected",
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+      },
+      "timestamp": "2026-07-03T05:43:03.070Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 34504,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-07-03T05:43:38.021Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 40002,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-07-03T05:44:19.111Z"
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 5,
+    "failed": 2,
+    "skipped": 0
+  }
+}
