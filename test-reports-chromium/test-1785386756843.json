@@ -1,17 +1,17 @@
 {
-  "id": "test-1785301079605",
-  "timestamp": "2026-07-29T04:57:59.605Z",
+  "id": "test-1785386756843",
+  "timestamp": "2026-07-30T04:45:56.843Z",
   "browser": "chromium",
   "testType": "standard",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "failed",
-      "duration": 33597,
+      "duration": 30356,
       "details": {
-        "error": "More link disappeared"
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-07-29T04:58:34.206Z"
+      "timestamp": "2026-07-30T04:46:29.945Z"
     }
   ],
   "summary": {
