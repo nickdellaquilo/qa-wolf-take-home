@@ -1,19 +1,19 @@
 {
-  "id": "test-1785819192555",
-  "timestamp": "2026-08-04T04:53:12.555Z",
-  "browser": "firefox",
+  "id": "test-1785906145333",
+  "timestamp": "2026-08-05T05:02:25.333Z",
+  "browser": "chromium",
   "testType": "standard",
   "results": [
     {
       "name": "Standard Sorting - First 100 Articles",
       "status": "passed",
-      "duration": 2257,
+      "duration": 887,
       "details": {
         "articlesCollected": 100,
         "validationErrors": 0,
         "sortingViolations": 0
       },
-      "timestamp": "2026-08-04T04:53:15.371Z"
+      "timestamp": "2026-08-05T05:02:26.509Z"
     }
   ],
   "summary": {
