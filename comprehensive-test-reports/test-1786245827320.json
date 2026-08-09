@@ -1,0 +1,84 @@
+{
+  "id": "test-1786245827320",
+  "timestamp": "2026-08-09T03:23:47.320Z",
+  "browser": "all",
+  "testType": "all",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 33821,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-08-09T03:24:22.306Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 34473,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-08-09T03:24:57.427Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "passed",
+      "duration": 5749,
+      "details": {
+        "articlesCollected": 100,
+        "validationErrors": 0,
+        "sortingViolations": 0
+      },
+      "timestamp": "2026-08-09T03:25:04.230Z"
+    },
+    {
+      "name": "Edge Case - First 30 Articles Only",
+      "status": "passed",
+      "duration": 671,
+      "details": {
+        "articlesCollected": 30,
+        "sortingViolations": 0
+      },
+      "timestamp": "2026-08-09T03:25:04.902Z"
+    },
+    {
+      "name": "Edge Case - Timestamp Format Consistency",
+      "status": "passed",
+      "duration": 606,
+      "details": {
+        "articlesChecked": 30,
+        "invalidFormats": 0,
+        "missingTimestamps": 0
+      },
+      "timestamp": "2026-08-09T03:25:05.508Z"
+    },
+    {
+      "name": "Negative Test - Network Failure Handling",
+      "status": "passed",
+      "duration": 3938,
+      "details": {
+        "articlesBeforeFailure": 30,
+        "failedGracefully": true
+      },
+      "timestamp": "2026-08-09T03:25:09.446Z"
+    },
+    {
+      "name": "Negative Test - Invalid URL",
+      "status": "passed",
+      "duration": 30496,
+      "details": {
+        "note": "Failed as expected",
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+      },
+      "timestamp": "2026-08-09T03:25:39.943Z"
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 5,
+    "failed": 2,
+    "skipped": 0
+  }
+}
