@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1786333349903</title>
+  <title>Test Report - test-1786418741314</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,19 +22,19 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1786333349903</p>
-    <p>Timestamp: 2026-08-10T03:42:29.903Z</p>
+    <p>Test Run ID: test-1786418741314</p>
+    <p>Timestamp: 2026-08-11T03:25:41.314Z</p>
     <p>Browser: chromium</p>
   </div>
   
   <div class="summary">
     <div class="metric">
       <h3>Total Tests</h3>
-      <div class="value">2</div>
+      <div class="value">1</div>
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">2</div>
+      <div class="value" style="color: #28a745">1</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
@@ -51,29 +51,16 @@
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Negative Test - Network Failure Handling</strong>
+          <strong>Standard Sorting - First 100 Articles</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">3317ms</span>
+            <span style="margin-left: 10px; color: #666">635ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesBeforeFailure": 30,
-  "failedGracefully": true
-}</div>
-      </div>
-    
-      <div class="test passed">
-        <div class="test-header">
-          <strong>Negative Test - Invalid URL</strong>
-          <div>
-            <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">30091ms</span>
-          </div>
-        </div>
-        <div class="details">{
-  "note": "Failed as expected",
-  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+  "articlesCollected": 100,
+  "validationErrors": 0,
+  "sortingViolations": 0
 }</div>
       </div>
     
