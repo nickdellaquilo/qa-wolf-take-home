@@ -1,0 +1,23 @@
+{
+  "id": "test-1786506855468",
+  "timestamp": "2026-08-12T03:54:15.468Z",
+  "browser": "webkit",
+  "testType": "standard",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 30682,
+      "details": {
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+      },
+      "timestamp": "2026-08-12T03:54:46.502Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}
