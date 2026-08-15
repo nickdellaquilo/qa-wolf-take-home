@@ -1,0 +1,41 @@
+{
+  "id": "test-1786761781044",
+  "timestamp": "2026-08-15T02:43:01.044Z",
+  "browser": "all",
+  "testType": "all",
+  "results": [
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 30190,
+      "details": {
+        "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
+      },
+      "timestamp": "2026-08-15T02:43:31.472Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 34370,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-08-15T02:44:06.291Z"
+    },
+    {
+      "name": "Standard Sorting - First 100 Articles",
+      "status": "failed",
+      "duration": 35882,
+      "details": {
+        "error": "More link disappeared"
+      },
+      "timestamp": "2026-08-15T02:44:43.196Z"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "passed": 0,
+    "failed": 3,
+    "skipped": 0
+  }
+}
