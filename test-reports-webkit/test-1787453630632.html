@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1787366730336</title>
+  <title>Test Report - test-1787453630632</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,8 +22,8 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1787366730336</p>
-    <p>Timestamp: 2026-08-22T02:45:30.336Z</p>
+    <p>Test Run ID: test-1787453630632</p>
+    <p>Timestamp: 2026-08-23T02:53:50.632Z</p>
     <p>Browser: webkit</p>
   </div>
   
@@ -34,32 +34,31 @@
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">2</div>
+      <div class="value" style="color: #28a745">1</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
-      <div class="value" style="color: #dc3545">0</div>
+      <div class="value" style="color: #dc3545">1</div>
     </div>
     <div class="metric">
       <h3>Success Rate</h3>
-      <div class="value">100.0%</div>
+      <div class="value">50.0%</div>
     </div>
   </div>
   
   <div class="tests">
     <h2>Test Results</h2>
     
-      <div class="test passed">
+      <div class="test failed">
         <div class="test-header">
           <strong>Edge Case - First 30 Articles Only</strong>
           <div>
-            <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">602ms</span>
+            <span class="status" style="background: #dc3545">FAILED</span>
+            <span style="margin-left: 10px; color: #666">30447ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesCollected": 30,
-  "sortingViolations": 0
+  "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
 }</div>
       </div>
     
@@ -68,7 +67,7 @@
           <strong>Edge Case - Timestamp Format Consistency</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">525ms</span>
+            <span style="margin-left: 10px; color: #666">501ms</span>
           </div>
         </div>
         <div class="details">{
