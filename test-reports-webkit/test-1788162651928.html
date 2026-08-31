@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Report - test-1788075486130</title>
+  <title>Test Report - test-1788162651928</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
     .header { background: #333; color: white; padding: 20px; border-radius: 5px; }
@@ -22,19 +22,19 @@
 <body>
   <div class="header">
     <h1> Hacker News Sorting Test Report</h1>
-    <p>Test Run ID: test-1788075486130</p>
-    <p>Timestamp: 2026-08-30T07:38:06.130Z</p>
+    <p>Test Run ID: test-1788162651928</p>
+    <p>Timestamp: 2026-08-31T07:50:51.928Z</p>
     <p>Browser: webkit</p>
   </div>
   
   <div class="summary">
     <div class="metric">
       <h3>Total Tests</h3>
-      <div class="value">1</div>
+      <div class="value">2</div>
     </div>
     <div class="metric">
       <h3>Passed</h3>
-      <div class="value" style="color: #28a745">1</div>
+      <div class="value" style="color: #28a745">2</div>
     </div>
     <div class="metric">
       <h3>Failed</h3>
@@ -51,16 +51,30 @@
     
       <div class="test passed">
         <div class="test-header">
-          <strong>Standard Sorting - First 100 Articles</strong>
+          <strong>Edge Case - First 30 Articles Only</strong>
           <div>
             <span class="status" style="background: #28a745">PASSED</span>
-            <span style="margin-left: 10px; color: #666">7323ms</span>
+            <span style="margin-left: 10px; color: #666">499ms</span>
           </div>
         </div>
         <div class="details">{
-  "articlesCollected": 100,
-  "validationErrors": 0,
+  "articlesCollected": 30,
   "sortingViolations": 0
+}</div>
+      </div>
+    
+      <div class="test passed">
+        <div class="test-header">
+          <strong>Edge Case - Timestamp Format Consistency</strong>
+          <div>
+            <span class="status" style="background: #28a745">PASSED</span>
+            <span style="margin-left: 10px; color: #666">466ms</span>
+          </div>
+        </div>
+        <div class="details">{
+  "articlesChecked": 30,
+  "invalidFormats": 0,
+  "missingTimestamps": 0
 }</div>
       </div>
     
