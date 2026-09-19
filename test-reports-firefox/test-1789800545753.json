@@ -1,29 +1,29 @@
 {
-  "id": "test-1789714214474",
-  "timestamp": "2026-09-18T06:50:14.474Z",
+  "id": "test-1789800545753",
+  "timestamp": "2026-09-19T06:49:05.753Z",
   "browser": "firefox",
   "testType": "edge-cases",
   "results": [
     {
       "name": "Edge Case - First 30 Articles Only",
       "status": "passed",
-      "duration": 1964,
+      "duration": 900,
       "details": {
         "articlesCollected": 30,
         "sortingViolations": 0
       },
-      "timestamp": "2026-09-18T06:50:16.800Z"
+      "timestamp": "2026-09-19T06:49:06.967Z"
     },
     {
       "name": "Edge Case - Timestamp Format Consistency",
       "status": "passed",
-      "duration": 376,
+      "duration": 330,
       "details": {
         "articlesChecked": 30,
         "invalidFormats": 0,
         "missingTimestamps": 0
       },
-      "timestamp": "2026-09-18T06:50:17.176Z"
+      "timestamp": "2026-09-19T06:49:07.297Z"
     }
   ],
   "summary": {
