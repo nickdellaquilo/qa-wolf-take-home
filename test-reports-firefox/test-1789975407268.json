@@ -1,28 +1,28 @@
 {
-  "id": "test-1789888433138",
-  "timestamp": "2026-09-20T07:13:53.138Z",
-  "browser": "webkit",
+  "id": "test-1789975407268",
+  "timestamp": "2026-09-21T07:23:27.268Z",
+  "browser": "firefox",
   "testType": "negative",
   "results": [
     {
       "name": "Negative Test - Network Failure Handling",
       "status": "passed",
-      "duration": 3781,
+      "duration": 4464,
       "details": {
         "articlesBeforeFailure": 30,
         "failedGracefully": true
       },
-      "timestamp": "2026-09-20T07:13:56.984Z"
+      "timestamp": "2026-09-21T07:23:32.133Z"
     },
     {
       "name": "Negative Test - Invalid URL",
       "status": "passed",
-      "duration": 30387,
+      "duration": 30441,
       "details": {
         "note": "Failed as expected",
         "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.athing') to be visible\n"
       },
-      "timestamp": "2026-09-20T07:14:27.371Z"
+      "timestamp": "2026-09-21T07:24:02.574Z"
     }
   ],
   "summary": {
